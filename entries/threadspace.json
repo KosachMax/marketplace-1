@@ -1,0 +1,25 @@
+{
+  "id": "threadspace",
+  "displayName": "Threadspace",
+  "description": "Turns the BB sidebar into a Notion-style list of projects and threads. Give each project an emoji and a Notion background colour that fills its row. Pinned threads stay at the top of their own project, and threads waiting for your answer collect in one section above the projects. One status column shows running agents, questions, errors and unread results; collapsed projects show a count of work inside.",
+  "icon": "PanelLeft",
+  "screenshots": [
+    "./screenshots/threadspace/light.jpg",
+    "./screenshots/threadspace/picker.jpg",
+    "./screenshots/threadspace/dark.jpg"
+  ],
+  "overview": "./overview/threadspace.md",
+  "tags": ["notion", "notion-style", "sidebar", "projects", "emoji", "pinned", "thread-list", "keyboard"],
+  "author": {
+    "name": "KosachMax",
+    "github": "KosachMax",
+    "url": "https://github.com/KosachMax"
+  },
+  "category": "thread-management",
+  "source": {
+    "git": {
+      "url": "https://github.com/KosachMax/threadspace.git",
+      "range": "^0.1.0"
+    }
+  }
+}
